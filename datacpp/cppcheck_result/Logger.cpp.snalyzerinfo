@@ -1,0 +1,14 @@
+set_pattern call:[set_spdlog_pattern] noreturn:[set_spdlog_pattern]
+set_level call:[set_spdlog_level] noreturn:[set_spdlog_level]
+set_max_size
+set_max_files
+get_logger
+get_logger_name
+get_logger_level
+get_pattern
+get_max_size
+get_max_files
+operator<< call:[get_logger_level,get_logger_name,get_max_files,get_max_size,get_pattern]
+logger_setting call:[begin,end,format,register_logger,set_default_logger,set_spdlog_level,set_spdlog_pattern,what] noreturn:[set_spdlog_level]
+set_spdlog_level call:[SPDLOG_INFO,lock,set_level] noreturn:[set_level]
+set_spdlog_pattern call:[lock,set_pattern] noreturn:[set_pattern]

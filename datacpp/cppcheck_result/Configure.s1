@@ -1,0 +1,3 @@
+get_yaml_dsn
+Configure call:[set_yaml_dsn] noreturn:[set_yaml_dsn]
+set_yaml_dsn global:[Demo_DEFAULT_CONFIG_DIR_NAME,Demo_DEFAULT_YAML_NAME,PROJECT_DIR_NAME,WORKSPACE_DIR] call:[format,generic_string,native]

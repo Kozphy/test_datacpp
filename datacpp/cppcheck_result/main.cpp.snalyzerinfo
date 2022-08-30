@@ -1,0 +1,12 @@
+set_pattern call:[set_spdlog_pattern] noreturn:[set_spdlog_pattern]
+set_level call:[set_spdlog_level] noreturn:[set_spdlog_level]
+set_max_size
+set_max_files
+get_logger
+get_logger_name
+get_logger_level
+get_pattern
+get_max_size
+get_max_files
+get_yaml_dsn call:[native] noreturn:[native]
+main global:[Demo_VERSION_MAJOR,Demo_VERSION_MINOR] call:[SPDLOG_ERROR,SPDLOG_INFO,current_path,message,set_level,what]

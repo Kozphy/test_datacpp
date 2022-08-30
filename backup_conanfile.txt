@@ -1,0 +1,25 @@
+[requires]
+boost/1.79.0
+poco/1.12.2
+cppcheck/2.7.5
+spdlog/1.10.0
+fmt/9.0.0
+cli11/2.2.0
+yaml-cpp/0.7.0
+protobuf/3.21.4
+
+[generators]
+cmake_find_package
+cmake_paths
+CMakeDeps
+CMakeToolchain
+
+[options]
+boost:shared=False
+poco:shared=False
+fmt:shared=False
+spdlog:shared=False
+
+[imports]
+bin, *.dll -> ./bin # Copies all dll files from packages bin folder to my "bin" folder
+lib, *.dylib* -> ./bin # Copies all dylib files from packages lib folder to my "bin" folder

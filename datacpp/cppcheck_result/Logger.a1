@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3238771004">
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="/workspace/datacpp/Logger/src/Logger.cpp:17:14" my-argnr="1" my-argname="os" file="/workspace/datacpp/Logger/src/Logger.cpp" line="19" col="9" value="0"/>
+    <unsafe-usage my-id="/workspace/datacpp/Logger/src/Logger.cpp:17:14" my-argnr="2" my-argname="c" file="/workspace/datacpp/Logger/src/Logger.cpp" line="19" col="45" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="set_spdlog_level" lineNumber="77"/>
+    <functiondecl functionName="set_spdlog_pattern" lineNumber="104"/>
+    <functioncall functionName="INFO"/>
+    <functioncall functionName="SPDLOG_INFO"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="catch"/>
+    <functioncall functionName="combined_logger"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="format_pattern"/>
+    <functioncall functionName="get_logger_level"/>
+    <functioncall functionName="get_logger_name"/>
+    <functioncall functionName="get_max_files"/>
+    <functioncall functionName="get_max_size"/>
+    <functioncall functionName="get_pattern"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="level"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="logger"/>
+    <functioncall functionName="logger_dir_dsn"/>
+    <functioncall functionName="logger_file_dsn"/>
+    <functioncall functionName="logger_file_name"/>
+    <functioncall functionName="logger_level"/>
+    <functioncall functionName="logger_name"/>
+    <functioncall functionName="logger_setting"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="max_files"/>
+    <functioncall functionName="max_size"/>
+    <functioncall functionName="nums"/>
+    <functioncall functionName="pattern"/>
+    <functioncall functionName="register_logger"/>
+    <functioncall functionName="rotating_file_sink_mt"/>
+    <functioncall functionName="set_default_logger"/>
+    <functioncall functionName="set_level"/>
+    <functioncall functionName="set_pattern"/>
+    <functioncall functionName="set_spdlog_level"/>
+    <functioncall functionName="set_spdlog_pattern"/>
+    <functioncall functionName="sink_ptr"/>
+    <functioncall functionName="sinks"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="spdlog_level"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="stdout_color_sink_mt"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="trace"/>
+    <functioncall functionName="what"/>
+  </FileInfo>
+</analyzerinfo>

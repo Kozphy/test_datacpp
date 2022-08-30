@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2255983879">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="set_yaml_dsn" lineNumber="10"/>
+    <functiondecl functionName="set_yaml_dsn" lineNumber="10"/>
+    <functioncall functionName="Configure"/>
+    <functioncall functionName="Demo_DEFAULT_CONFIG_DIR_NAME"/>
+    <functioncall functionName="Demo_DEFAULT_YAML_NAME"/>
+    <functioncall functionName="INFO"/>
+    <functioncall functionName="PROJECT_DIR_NAME"/>
+    <functioncall functionName="SPDLOG_DEBUG"/>
+    <functioncall functionName="WORKSPACE_DIR"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="generic_string"/>
+    <functioncall functionName="level"/>
+    <functioncall functionName="logger"/>
+    <functioncall functionName="native"/>
+    <functioncall functionName="nums"/>
+    <functioncall functionName="pattern"/>
+    <functioncall functionName="set_spdlog_level"/>
+    <functioncall functionName="set_spdlog_pattern"/>
+    <functioncall functionName="set_yaml_dsn"/>
+    <functioncall functionName="size"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1348039807">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="46"/>
+    <functioncall functionName="Configure"/>
+    <functioncall functionName="DEBUG"/>
+    <functioncall functionName="INFO"/>
+    <functioncall functionName="SPDLOG_ERROR"/>
+    <functioncall functionName="SPDLOG_INFO"/>
+    <functioncall functionName="catch"/>
+    <functioncall functionName="current_path"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="level"/>
+    <functioncall functionName="logger"/>
+    <functioncall functionName="logger_setting"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="native"/>
+    <functioncall functionName="nums"/>
+    <functioncall functionName="pattern"/>
+    <functioncall functionName="set_level"/>
+    <functioncall functionName="set_spdlog_level"/>
+    <functioncall functionName="set_spdlog_pattern"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="what"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,13 @@
+set_pattern call:[set_spdlog_pattern] noreturn:[set_spdlog_pattern]
+set_level call:[set_spdlog_level] noreturn:[set_spdlog_level]
+set_max_size
+set_max_files
+get_logger
+get_logger_name
+get_logger_level
+get_pattern
+get_max_size
+get_max_files
+get_yaml_dsn call:[native] noreturn:[native]
+Configure call:[set_yaml_dsn] noreturn:[set_yaml_dsn]
+set_yaml_dsn global:[Demo_DEFAULT_CONFIG_DIR_NAME,Demo_DEFAULT_YAML_NAME,PROJECT_DIR_NAME,WORKSPACE_DIR] call:[SPDLOG_DEBUG,format,generic_string,native]
